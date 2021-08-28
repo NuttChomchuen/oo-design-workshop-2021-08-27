@@ -7,7 +7,7 @@ public class RangeTest {
     public void isStartWitchInclusiveWithKampooShouldBetrue()
     {
         // Arrage
-        Range range = new Range("[1,5]");
+        Range range = new Range("(1,5]");
 
         // Act
         boolean actualResult = range.isStartWithInclusive();

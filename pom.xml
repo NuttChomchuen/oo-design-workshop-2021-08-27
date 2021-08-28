@@ -6,7 +6,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>oo-design-workshop-2021-08-27</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>oo-workshop-2021-08-28</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

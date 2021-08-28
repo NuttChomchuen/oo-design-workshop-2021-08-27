@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oo-design-workshop-2021-08-27" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oo-workshop-2021-08-28" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
